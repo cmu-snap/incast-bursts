@@ -1,0 +1,6 @@
+[submodule "incast-analysis"]
+	path = incast-analysis
+	url = https://github.com/cmu-snap/incast-analysis.git
+[submodule "ns-3-dev-git"]
+	path = ns-3-dev-git
+	url = https://github.com/cmu-snap/ns-3-dev-git.git
