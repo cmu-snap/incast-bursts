@@ -37,9 +37,9 @@ sudo apt update
 sudo apt install cmake parallel
 ```
 
-Run experiments. This will automatically build NS-3. Cmake will alert you to any missing dependencies. After the build, the experiments should take about 4 minutes to complete. In this example, results are stored in `~/incast_bursts_imc_experiments_out`.
+Run experiments. This will automatically build NS-3. Cmake will alert you to any missing dependencies. After the build, the experiments should take about 4 minutes to complete. In this example, results are stored in `~/incast_bursts_imc_experiments_data`.
 ```bash
-./imc_experiments.sh ~/incast_bursts_imc_experiments_out
+./imc_experiments.sh ~/incast_bursts_imc_experiments_data
 ```
 
 Produce graphs.
@@ -51,7 +51,7 @@ Produce graphs.
 
 ## Examine results without rerunning simulations
 
-If you prefer to not run the experiments and simply want to view the data, the output files and graphs are stored in this repo in `incast_bursts_imc_experiments.tar.gz`. Simply untar this archive.
+If you prefer to not run the experiments and simply want to view the data, the output files and graphs are stored in this repo in `incast_bursts_imc_experiments_data.tar.gz`. Simply untar this archive.
 ```bash
-tar -xf incast_bursts_imc_experiments.tar.gz
+tar -xf incast_bursts_imc_experiments_data.tar.gz
 ```
